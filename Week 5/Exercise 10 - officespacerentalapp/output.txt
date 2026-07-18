@@ -1,0 +1,21 @@
+Exercise 10 - officespacerentalapp Output
+==========================================
+App: officespacerentalapp | Date: 2026-07-18 | Status: SUCCESS
+
+--- JSX Elements Rendered ---
+Heading: "Office Space Rental App"
+Image: Office space photo displayed (via JSX src attribute)
+
+Featured Office Object:
+  Name:    Prime Business Hub
+  Rent:    Rs.55,000/month  → Color: RED (below 60000)
+  Address: 42 MG Road, Bengaluru, Karnataka - 560001
+
+Office List (5 items via map()):
+  1. Tech Park Suite A       | Rs.45,000 → RED   (below 60000) | Whitefield, Bengaluru
+  2. Corporate Tower B       | Rs.75,000 → GREEN (above 60000) | BKC, Mumbai
+  3. Smart Office Complex    | Rs.62,000 → GREEN (above 60000) | Cyber City, Gurugram
+  4. Creative Co-Work Space  | Rs.30,000 → RED   (below 60000) | Koregaon Park, Pune
+  5. Executive Centre Plaza  | Rs.90,000 → GREEN (above 60000) | Connaught Place, Delhi
+
+Status: SUCCESS - JSX rendering, inline CSS conditional color working correctly.

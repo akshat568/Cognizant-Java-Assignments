@@ -1,0 +1,19 @@
+﻿Exercise 14 - EmployeeThemeApp Output
+=======================================
+App: employeethemeapp | Status: BUILD SUCCESS
+
+Context API Flow:
+  ThemeContext.js  → createContext("light")
+  App.js           → ThemeContext.Provider value={this.state.theme}
+  EmployeesList.js → renders EmployeeCard (NO theme prop passed)
+  EmployeeCard.js  → useContext(ThemeContext) reads theme directly
+
+LIGHT Theme:
+  Cards: white bg, dark text | Buttons: blue (#3498db)
+  Toggle button shows: "Switch to Dark"
+
+DARK Theme (after toggle):
+  Cards: #2c3e50 bg, light text | Buttons: red (#e74c3c)
+  Toggle button shows: "Switch to Light"
+
+Employees shown: Rahul Sharma, Priya Patel, Arun Kumar, Sneha Gupta

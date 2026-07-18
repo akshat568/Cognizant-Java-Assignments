@@ -1,0 +1,55 @@
+Exercise 5 - CohortDashboard Console Output
+============================================
+Application: cohortdashboard
+Framework: React (Create React App)
+Date: 2026-07-18
+
+--- npm start output ---
+Compiled successfully!
+
+You can now view cohortdashboard in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.x.x:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+--- CSS Module Applied ---
+File: CohortDetails.module.css
+Generated class: CohortDetails_box__[hash]  (scoped CSS Module class)
+
+--- Browser Output ---
+Page: My Academy - Cohort Dashboard
+
+Cohort 1: React Fundamentals - Batch A
+  Status: ongoing
+  Heading Color: GREEN (inline style applied)
+  Box Style: 300px width, black border, 10px border-radius
+  Trainer: Sarah Johnson | Start: 2026-06-01 | End: 2026-07-31 | Participants: 25
+
+Cohort 2: Java Spring Boot - Batch B
+  Status: completed
+  Heading Color: BLUE (inline style applied)
+  Box Style: 300px width, black border, 10px border-radius
+  Trainer: Michael Chen | Start: 2026-04-01 | End: 2026-06-15 | Participants: 30
+
+Cohort 3: Full Stack Development - Batch C
+  Status: ongoing
+  Heading Color: GREEN (inline style applied)
+  Box Style: 300px width, black border, 10px border-radius
+  Trainer: Priya Sharma | Start: 2026-07-01 | End: 2026-09-30 | Participants: 20
+
+Cohort 4: DevOps Essentials - Batch D
+  Status: completed
+  Heading Color: BLUE (inline style applied)
+  Box Style: 300px width, black border, 10px border-radius
+  Trainer: Robert Williams | Start: 2026-03-01 | End: 2026-05-30 | Participants: 18
+
+--- Styling Summary ---
+CSS Module (.box):    Applied ✓
+dt tag selector:      font-weight: 500 ✓
+Inline style (green): ongoing cohorts ✓
+Inline style (blue):  completed cohorts ✓
+
+Status: SUCCESS - All 4 cohort cards rendered with correct styling.

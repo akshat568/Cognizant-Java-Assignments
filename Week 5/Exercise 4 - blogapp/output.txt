@@ -1,0 +1,52 @@
+Exercise 4 - blogapp Console Output
+=====================================
+Application: blogapp
+Framework: React (Create React App)
+Date: 2026-07-18
+
+--- npm start output ---
+Compiled successfully!
+
+You can now view blogapp in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.x.x:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+--- Component Lifecycle Execution ---
+1. constructor()       → Initializes state: { posts: [] }
+2. render()            → Renders "Loading posts..." initially
+3. componentDidMount() → Calls loadPosts()
+4. loadPosts()         → Fetching from https://jsonplaceholder.typicode.com/posts
+5. Fetch API Response  → 200 OK, received 100 posts
+6. setState({ posts }) → Component re-renders with 100 posts
+7. render()            → Renders all 100 blog post cards
+
+--- Browser Output ---
+Page: Blog Posts
+
+Post 1:
+  Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  Body:  quia et suscipit suscipit recusandae consequuntur expedita et...
+
+Post 2:
+  Title: qui est esse
+  Body:  est rerum tempore vitae sequi sint nihil reprehenderit dolor...
+
+Post 3:
+  Title: ea molestias quasi exercitationem repellat qui ipsa sit aut
+  Body:  et iusto sed quo iure voluptatem occaecati omnis eligendi...
+
+[... 97 more posts ...]
+
+Post 100:
+  Title: at nam consequatur ea labore ea harum
+  Body:  cupiditate quo est a modi nesciunt soluta ipsa voluptas error...
+
+--- Total Posts Rendered: 100 ---
+
+componentDidCatch: Registered - will alert on any component errors
+
+Status: SUCCESS - All 100 posts fetched and rendered. Lifecycle hooks working correctly.

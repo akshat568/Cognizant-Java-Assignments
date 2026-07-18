@@ -1,0 +1,27 @@
+Exercise 13 - bloggerapp Output
+=================================
+App: bloggerapp | Date: 2026-07-18 | Status: SUCCESS
+
+--- BOOK DETAILS (Conditional Rendering: if-else + element variable) ---
+  1. Clean Code (Robert C. Martin, Programming)         → ✅ Available
+  2. The Pragmatic Programmer (Andrew Hunt, Programming) → ❌ Not Available
+  3. Design Patterns (Gang of Four, Architecture)       → ✅ Available
+
+--- BLOG DETAILS (Conditional Rendering: && short-circuit) ---
+  1. Getting Started with React   (2026-07-01) → ✅ Published
+  2. Understanding Hooks in React (2026-07-10) → ✅ Published
+  3. React Router Deep Dive       (2026-07-20) → ⏳ Draft (opacity: 0.6)
+
+--- COURSE DETAILS (Conditional Rendering: switch + ternary + null) ---
+  1. React Fundamentals  | Level: Beginner (GREEN badge)     | 30 hrs | 120 students | 🔥 High Demand!
+  2. Advanced React      | Level: Advanced (RED badge)       | 45 hrs | 85 students
+  3. React + Redux       | Level: Intermediate (ORANGE badge)| 40 hrs | 200 students | 🔥 High Demand!
+
+--- 5 Conditional Rendering Ways Used ---
+  Way 1: Ternary operator      - Show books list or "No books"
+  Way 2: Element variable      - Book availability badge (if-else)
+  Way 3: Short-circuit &&      - Blog published badge
+  Way 4: switch statement      - Course level color
+  Way 5: Return null           - "High Demand!" only when enrolled > 100
+
+Status: SUCCESS - All 3 components rendered. 5 conditional rendering approaches demonstrated.

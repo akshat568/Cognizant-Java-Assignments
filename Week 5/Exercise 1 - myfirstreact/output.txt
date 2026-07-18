@@ -1,0 +1,24 @@
+Exercise 1 - myfirstreact Console Output
+=========================================
+Application: myfirstreact
+Framework: React (Create React App)
+Date: 2026-07-18
+
+--- npm start output ---
+Compiled successfully!
+
+You can now view myfirstreact in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.x.x:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+--- Browser Output ---
+Page Title: myfirstreact
+
+Rendered Output:
+  H1: Welcome to the first session of React
+
+Status: SUCCESS - React heading displayed correctly.

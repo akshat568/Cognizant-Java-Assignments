@@ -1,0 +1,14 @@
+﻿Exercise 15 - ticketraisingapp Output
+=======================================
+App: ticketraisingapp | Status: BUILD SUCCESS
+
+ComplaintRegister form:
+  Employee Name : "John Smith"
+  Complaint     : "The office AC is not working properly since last week."
+
+On clicking "Submit Complaint":
+  handleSubmit event fired
+  Alert shown: "Complaint submitted! Reference Number: REF-482910"
+  Green banner displayed: "Complaint Submitted! Reference: REF-482910"
+
+Reference number format: REF-XXXXXX (last 6 digits of Date.now())

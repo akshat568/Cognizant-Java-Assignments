@@ -1,0 +1,14 @@
+﻿Exercise 7 - shoppingapp Output
+=================================
+App: shoppingapp | Status: BUILD SUCCESS
+
+Cart Items displayed (OnlineShopping component):
+  #  | Item Name            | Price
+  1  | Wireless Headphones  | Rs.2,999
+  2  | Mechanical Keyboard  | Rs.4,599
+  3  | USB-C Hub            | Rs.1,499
+  4  | Webcam HD 1080p      | Rs.3,299
+  5  | Laptop Stand         | Rs.1,299
+                   Total --> Rs.13,695
+
+Props: Cart class with itemname + price properties, array of 5 items looped via map().

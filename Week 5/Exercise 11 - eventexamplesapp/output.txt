@@ -1,0 +1,30 @@
+Exercise 11 - eventexamplesapp Output
+======================================
+App: eventexamplesapp | Date: 2026-07-18 | Status: SUCCESS
+
+--- Event Interactions ---
+
+1. COUNTER (Increment/Decrement):
+   Initial counter: 0
+   After clicking "Increment + Say Hello" x3: Counter = 3
+   Message shown: "Hello! Counter incremented. Have a great day!"
+   After clicking "Decrement" x1: Counter = 2
+
+2. SAY WELCOME (argument passed):
+   Clicked "Say Welcome" button
+   Message shown: "welcome! Welcome to React Event Examples App!"
+
+3. SYNTHETIC EVENT (OnPress):
+   Clicked "Click Me" button
+   Alert displayed: "I was clicked"
+   Console: "Synthetic event triggered: click"
+
+4. CURRENCY CONVERTOR (handleSubmit):
+   Input: Rs. 1000
+   Clicked "Convert"
+   Result: "Rs.1000 = EUR 11.00"
+   Conversion rate: 1 INR = 0.011 EUR
+
+--- Methods invoked by Increment button: increment() + sayHello() ---
+
+Status: SUCCESS - All event handlers working correctly.

@@ -1,0 +1,29 @@
+Exercise 9 - cricketapp Output
+================================
+App: cricketapp | Date: 2026-07-18 | Status: SUCCESS
+
+--- Flag = true: ListofPlayers Component ---
+All 11 Players (ES6 map()):
+ 1. Rohit Sharma    - Score: 83  (GREEN - above 70)
+ 2. Shubman Gill    - Score: 65  (RED   - below 70)
+ 3. Virat Kohli     - Score: 92  (GREEN - above 70)
+ 4. Shreyas Iyer    - Score: 45  (RED   - below 70)
+ 5. KL Rahul        - Score: 70  (GREEN - at 70)
+ 6. Hardik Pandya   - Score: 55  (RED   - below 70)
+ 7. Ravindra Jadeja - Score: 88  (GREEN - above 70)
+ 8. Shardul Thakur  - Score: 30  (RED   - below 70)
+ 9. Mohammad Siraj  - Score: 20  (RED   - below 70)
+10. Kuldeep Yadav   - Score: 15  (RED   - below 70)
+11. Jasprit Bumrah  - Score: 10  (RED   - below 70)
+
+Players with Score Below 70 (ES6 arrow function + filter):
+- Shubman Gill (65), Shreyas Iyer (45), Hardik Pandya (55)
+- Shardul Thakur (30), Mohammad Siraj (20), Kuldeep Yadav (15), Jasprit Bumrah (10)
+
+--- Flag = false: IndianPlayers Component ---
+T20 Players: ['Rohit Sharma', 'Virat Kohli', 'KL Rahul', 'Hardik Pandya', 'Jasprit Bumrah']
+Ranji Players: ['Prithvi Shaw', 'Sarfaraz Khan', 'Abhimanyu Easwaran', 'Rinku Singh', 'Yash Dayal']
+Merged (Spread): All 10 players combined
+
+Odd Team: Virat Kohli, Hardik Pandya, Sarfaraz Khan, Rinku Singh
+Even Team: Rohit Sharma, KL Rahul, Jasprit Bumrah, Prithvi Shaw, Abhimanyu Easwaran, Yash Dayal

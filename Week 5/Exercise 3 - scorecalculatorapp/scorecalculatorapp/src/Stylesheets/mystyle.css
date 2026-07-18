@@ -1,0 +1,48 @@
+﻿/* Score Calculator Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.score-container {
+  background-color: white;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.score-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.score-table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ecf0f1;
+  font-size: 1rem;
+  color: #555;
+}
+
+.score-table td:first-child {
+  color: #2c3e50;
+  width: 55%;
+}
+
+.average {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #27ae60 !important;
+}

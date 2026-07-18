@@ -1,0 +1,19 @@
+﻿Exercise 17 - fetchuserapp Output
+===================================
+App: fetchuserapp | Status: BUILD SUCCESS
+
+API URL: https://api.randomuser.me/
+Method : fetch() inside async componentDidMount()
+
+Sample output (actual data varies each load):
+  Title    : Mr.
+  Firstname: John
+  Lastname : Smith
+  Image    : [profile photo displayed from API]
+  Email    : john.smith@example.com
+  Phone    : 555-123-4567
+  Location : Paris, France
+  Age      : 34 years
+  Gender   : male
+
+"Fetch Another User" button re-calls componentDidMount() to fetch a new random user.

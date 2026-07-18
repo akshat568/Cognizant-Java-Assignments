@@ -1,0 +1,16 @@
+﻿Exercise 8 - counterapp Output
+================================
+App: counterapp | Status: BUILD SUCCESS
+
+CountPeople component state:
+  Initial:  entrycount=0, exitcount=0
+
+After clicking "Login" 5 times:
+  entrycount = 5 | exitcount = 0 | Currently Inside = 5
+  Output: "Number of people who entered the mall: 5"
+
+After clicking "Exit" 2 times:
+  entrycount = 5 | exitcount = 2 | Currently Inside = 3
+  Output: "Number of people who exited the mall: 2"
+
+State managed via constructor + setState in UpdateEntry() and UpdateExit().

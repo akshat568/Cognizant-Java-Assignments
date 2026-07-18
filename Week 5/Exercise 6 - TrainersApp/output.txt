@@ -1,0 +1,17 @@
+﻿Exercise 6 - TrainersApp Output
+=================================
+App: trainersapp | Status: BUILD SUCCESS
+
+Routes:
+  /           → Home component   (Cognizant Academy welcome page with stat cards)
+  /trainers   → TrainersList     (Table: T-ID, Name, Phone, Email, Stream, Skills)
+  /trainers/1 → TrainerDetail    (Full card for Alice Johnson - React trainer)
+
+Trainers loaded (from TrainersMock.js):
+  1. Alice Johnson   | React  | alice@cognizant.com  | 9876543210
+  2. Bob Smith       | Java   | bob@cognizant.com    | 9876543211
+  3. Carol Williams  | Python | carol@cognizant.com  | 9876543212
+  4. David Brown     | DevOps | david@cognizant.com  | 9876543213
+  5. Eva Davis       | Angular| eva@cognizant.com    | 9876543214
+
+React Router: BrowserRouter, Routes, Route, Link, useParams — all working.

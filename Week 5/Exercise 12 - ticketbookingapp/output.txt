@@ -1,0 +1,32 @@
+Exercise 12 - ticketbookingapp Output
+======================================
+App: ticketbookingapp | Date: 2026-07-18 | Status: SUCCESS
+
+--- Guest View (isLoggedIn = false) ---
+Header: "Ticket Booking App" | Button: "Login" (green)
+Status bar: "Not Logged In - Viewing as Guest" (red background)
+
+Flights displayed:
+  1. Delhi (DEL) → Mumbai (BOM)     | 2026-08-10 06:30 | IndiGo    | Rs.3,500
+  2. Mumbai (BOM) → Bangalore (BLR) | 2026-08-12 09:00 | Air India | Rs.4,200
+  3. Bangalore (BLR) → Chennai (MAA)| 2026-08-15 11:45 | SpiceJet  | Rs.2,800
+  4. Chennai (MAA) → Kolkata (CCU)  | 2026-08-18 14:20 | Vistara   | Rs.5,100
+
+All "Book Ticket" buttons: DISABLED (gray)
+
+--- User View (after Login click, isLoggedIn = true) ---
+Header: "Ticket Booking App" | Button: "Logout" (red)
+Status bar: "Logged In as Harsh" (green background)
+
+Booking Card shown:
+  Delhi (DEL) → Mumbai (BOM)
+  Date: 2026-08-10 | Time: 06:30 | IndiGo | Rs.3,500
+  Button: "Book Now" (blue, enabled)
+
+After clicking "Book Now":
+  Confirmation: "Ticket Booked! Delhi to Mumbai on 2026-08-10"
+
+--- After Logout ---
+Returns to Guest View
+
+Status: SUCCESS - Conditional rendering working. Login/Logout state managed correctly.
